@@ -1,0 +1,1 @@
+Public-safe architecture showcase for RPC risk boundaries, Normal Mode, Degraded Mode, OFF Mode, Read-only Gate, explicit 503 behavior, and platform reliability.

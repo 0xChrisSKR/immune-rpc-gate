@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Immune RPC Gate architecture">
+  <rect width="1280" height="720" fill="#0b1020"/>
+  <text x="72" y="96" fill="#f8fafc" font-family="Arial, sans-serif" font-size="42" font-weight="700">Immune RPC Gate</text>
+  <text x="72" y="140" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">RPC dependency risk boundaries: normal, degraded, read-only, off, and explicit 503 behavior</text>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="600">
+    <rect x="80" y="250" width="170" height="82" rx="16" fill="#111827" stroke="#38bdf8"/><text x="126" y="300" fill="#e0f2fe">Request</text>
+    <rect x="310" y="250" width="170" height="82" rx="16" fill="#111827" stroke="#818cf8"/><text x="356" y="300" fill="#e0e7ff">RPC Gate</text>
+    <rect x="560" y="170" width="180" height="70" rx="16" fill="#111827" stroke="#34d399"/><text x="592" y="214" fill="#dcfce7">Normal</text>
+    <rect x="560" y="265" width="180" height="70" rx="16" fill="#111827" stroke="#fbbf24"/><text x="592" y="309" fill="#fef3c7">Degraded</text>
+    <rect x="560" y="360" width="180" height="70" rx="16" fill="#111827" stroke="#a78bfa"/><text x="590" y="404" fill="#ede9fe">Read-only</text>
+    <rect x="830" y="265" width="180" height="70" rx="16" fill="#111827" stroke="#fb7185"/><text x="890" y="309" fill="#ffe4e6">OFF</text>
+    <rect x="1040" y="265" width="160" height="70" rx="16" fill="#111827" stroke="#f97316"/><text x="1088" y="309" fill="#ffedd5">503</text>
+  </g>
+  <g stroke="#475569" stroke-width="4" fill="none">
+    <path d="M250 291 H310"/>
+    <path d="M480 291 C520 291 520 205 560 205"/>
+    <path d="M480 291 H560"/>
+    <path d="M480 291 C520 291 520 395 560 395"/>
+    <path d="M740 300 H830"/>
+    <path d="M1010 300 H1040"/>
+  </g>
+  <text x="72" y="540" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">Architecture showcase only: designed to explain risk boundaries without exposing implementation.</text>
+</svg>

@@ -1,0 +1,9 @@
+flowchart LR
+  Request["Request"] --> Gate["RPC Gate"]
+  Gate --> Normal["Normal Mode"]
+  Gate --> Degraded["Degraded Mode"]
+  Gate --> ReadOnly["Read-only Gate"]
+  Gate --> Off["OFF Mode"]
+  Degraded --> Response["Explicit status"]
+  ReadOnly --> Response
+  Off --> Unavailable["503 behavior"]

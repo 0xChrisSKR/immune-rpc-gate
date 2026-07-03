@@ -1,5 +1,9 @@
 # What This Proves
 
-- I can design reliability boundaries for external dependencies.
-- I can explain platform risk modes in product and engineering language.
-- I can connect RPC safety, AI workflow reliability, and user trust.
+Immune RPC Gate demonstrates:
+
+- Security boundary thinking for external RPC dependencies.
+- Infrastructure reliability design across health checks, failover, and operating modes.
+- Ability to reason about front-end/back-end state consistency risks.
+- Ability to explain platform risk modes in product and engineering language.
+- Connection between RPC safety, AI workflow reliability, and user trust.

@@ -2,13 +2,21 @@
 
 ![Immune RPC Gate architecture](assets/diagrams/architecture.svg)
 
-Immune RPC Gate is a public-safe architecture showcase for RPC dependency risk, Normal Mode, Degraded Mode, OFF Mode, Read-only Gate, explicit 503 behavior, and platform reliability.
+Immune RPC Gate is a secure RPC gateway and reliability architecture created from practical RPC latency, node synchronization, and front-end/back-end state consistency problems.
 
-This repository is an engineering showcase. It does not expose implementation details.
+This repository is a public-safe engineering showcase. It explains the architecture without exposing implementation details, deployment topology, private RPC endpoints, or secrets.
+
+## One-line Positioning
+
+Secure RPC gateway architecture for read-only boundaries, health checks, failover, and Normal / Degraded / OFF modes.
 
 ## Problem
 
-RPC dependencies can become unstable, slow, unavailable, abusive, or untrusted. AI and product workflows need clear read/write boundaries, degraded modes, and safe response behavior.
+RPC dependencies can become unstable, slow, unavailable, abusive, or untrusted. When product or AI workflows depend on RPC state, weak boundaries can create state mismatch, failed transactions, unsafe writes, or unclear user feedback.
+
+## My Role
+
+I designed the reliability model, RPC boundary concept, failover behavior, operating modes, and public-safe documentation package.
 
 ## What I Designed
 
@@ -16,13 +24,37 @@ RPC dependencies can become unstable, slow, unavailable, abusive, or untrusted. 
 - Degraded Mode for limited operation under elevated risk.
 - OFF Mode for disabling unsafe operations.
 - Read-only Gate for constrained non-mutating access.
+- Health checks and failover logic.
 - Explicit 503 behavior when the system cannot process a request safely.
 - Threat model for external dependency risk.
 
-## Architecture
+## Tech Stack
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+- RPC gateway architecture
+- Infrastructure reliability design
+- Health check and failover concepts
+- Web3 infrastructure risk modeling
+- API boundary design
 
-## Public Status
+## Public Artifacts
 
-Immune RPC Gate is presented as architecture and research. It does not claim production deployment.
+- Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- Public artifacts: [docs/PUBLIC_ARTIFACTS.md](docs/PUBLIC_ARTIFACTS.md)
+- 104 summary: [docs/104_PROJECT_SUMMARY.md](docs/104_PROJECT_SUMMARY.md)
+- What this proves: [docs/WHAT_THIS_PROVES.md](docs/WHAT_THIS_PROVES.md)
+- What this does not claim: [docs/WHAT_THIS_DOES_NOT_CLAIM.md](docs/WHAT_THIS_DOES_NOT_CLAIM.md)
+
+## Screenshots / Diagrams
+
+- Architecture diagram: `assets/diagrams/architecture.svg`
+- Mermaid source: `assets/diagrams/architecture.mmd`
+
+No product UI screenshot is claimed for this repository; it is presented as an architecture showcase.
+
+## Relation to the Portfolio Narrative
+
+Immune RPC Gate connects my C-Chain infrastructure work with later TRACE platform reliability. It shows how I think about external dependency risk, state consistency, and security boundaries before building higher-level AI workflows.
+
+## Safe Status
+
+This design was evaluated as a potential patent direction. This repository does not claim that a patent was filed or granted.

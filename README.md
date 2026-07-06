@@ -62,7 +62,7 @@ I designed the reliability model, RPC boundary concept, failover behavior, opera
 - Performance notes: [docs/PERFORMANCE.md](docs/PERFORMANCE.md)
 - Security notes: [docs/SECURITY.md](docs/SECURITY.md)
 - Future work: [docs/FUTURE_WORK.md](docs/FUTURE_WORK.md)
-- Career mapping: [docs/CAREER_MAPPING.md](docs/CAREER_MAPPING.md)
+- Reviewer notes: [docs/CAREER_MAPPING.md](docs/CAREER_MAPPING.md)
 
 ## Local Deployment Preview
 
@@ -96,22 +96,19 @@ No product UI screenshot is claimed for this repository; it is presented as an a
 
 Immune RPC Gate connects my C-Chain infrastructure work with later TRACE platform reliability. It shows how I think about external dependency risk, state consistency, and security boundaries before building higher-level AI workflows.
 
-## Portfolio Ecosystem
+## Related Projects
 
-- WorldPeace DAO: https://github.com/0xChrisSKR/worldpeace-dao-showcase
-- C-Chain: https://github.com/0xChrisSKR/cchain-system-showcase
-- Immune RPC Gate: this repository
-- TRACE ProofFeed: https://github.com/TRACE-CChain-Labs/trace-prooffeed-solana-agent
+- C-Chain System: https://github.com/0xChrisSKR/cchain-system-showcase
 - TRACE AI Platform: https://github.com/0xChrisSKR/trace-ai-platform-showcase
-- GO2 Agent Lab: https://github.com/0xChrisSKR/go2-agent-lab
+- TRACE ProofFeed: https://github.com/TRACE-CChain-Labs/trace-prooffeed-solana-agent
 
 ## What A Reviewer Can Verify
 
 - The operating mode model.
 - The architecture diagram and Mermaid source.
 - The reliability reasoning in engineering decisions.
-- The explicit claim boundary around deployment and patent status.
+- The boundary around deployment status and patent status.
 
-## Safe Status
+## Status Note
 
-This design was evaluated as a potential patent direction. This repository does not claim that a patent was filed or granted.
+I evaluated this as a potential patent direction, but I do not claim that a patent was filed or granted.

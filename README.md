@@ -96,6 +96,8 @@ No product UI screenshot is claimed for this repository; it is presented as an a
 
 Immune RPC Gate connects my C-Chain infrastructure work with later TRACE platform reliability. It shows how I think about external dependency risk, state consistency, and security boundaries before building higher-level AI workflows.
 
+It also fits the current TRACE kernel philosophy: a capability should fail clearly, degrade honestly, or block unsafe execution instead of pretending success. That same idea applies to chat-first agent systems, approval-gated execution providers, wallet session boundaries, and proof / receipt layers.
+
 ## Related Projects
 
 - C-Chain System: https://github.com/0xChrisSKR/cchain-system-showcase
